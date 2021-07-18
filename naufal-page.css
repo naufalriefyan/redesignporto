@@ -1,0 +1,572 @@
+@font-face {
+    font-family: thinHelvetica;
+    src: url(asset/fonts/HelveticaNowDisplay-Thin.ttf);
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(asset/fonts/HelveticaNowDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: mediumHelvetica;
+    src: url(asset/fonts/HelveticaNowDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family: boldHelvetica;
+    src: url(asset/fonts/HelveticaNowDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: extraboldHelvetica;
+    src: url(asset/fonts/HelveticaNowDisplay-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: blackHelvetica;
+    src: url(asset/fonts/HelveticaNowDisplay-Black.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: Helvetica;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav .brand-logo {
+    margin-top: 20px;
+    margin-left: 30px;
+    transition: .6s;
+}
+nav .brand-logo:hover {
+    opacity: .48;
+}
+
+.profile-image .back-image {
+    right: 10%;
+    top: 20%;
+    position: absolute;
+    z-index: -10;
+}
+
+.profile-image .front-image {
+    right: 14%;
+    top: 28%;
+    position: absolute;
+    z-index: 3;
+    transform: preserve-3d;
+}
+
+.profile-image .triangle {
+    right: 31%;
+    top: 51%;
+    position: absolute;
+    z-index: 5;
+}
+
+.profile-image .square {
+    right: 10%;
+    top: 20%;
+    position: absolute;
+    z-index: 2;
+}
+
+.profile-image .ellipse {
+    right: 29%;
+    top: 20%;
+    position: absolute;
+    z-index: 2;
+}
+
+.main-profile2 {
+    margin: 180px 30px 100px;
+    width: 40%;
+}
+
+.main-profile2 .row .title2 {
+    font-size: 18px;
+    color: #7C7C7C;
+    letter-spacing: .11em;
+    font-family: Helvetica;
+}
+
+.main-profile2 .row .main-title2 {
+    font-size: 45px;
+    font-family: extraboldHelvetica;
+    margin-bottom: 14px;
+}
+
+.main-profile2 .row .about-2 {
+    font-size: 22px;
+    line-height: 130%;
+    font-family: mediumHelvetica;
+    color: #5B5B5B;
+    margin-bottom: 50px;
+}
+
+.main-profile2 .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.main-profile2 .row a {
+    width: fit-content;
+    display: inline;
+    text-decoration: none;
+    color: #5F5757;
+    font-family: boldHelvetica;
+}
+
+.content-work2 {
+    margin: 0px;
+    max-width: 1440px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.content-work2 .row2-3{
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+
+.content-work2 .row .col-xl {
+    padding: 10px;
+    margin: auto;
+    height: auto;
+    width: auto;
+    
+}
+
+.content-work2 .row .col-xl a {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+    
+.content-work2 .row .col-xl a img{
+    display: block;
+    margin: auto;
+    transition: .4s;
+    border-radius: 30px;
+    height: auto;
+}
+
+.content-work2 .row .col-xl a img:hover{
+    transform: scale(1.1);
+    box-shadow: 6px 9px 26px -2px rgba(100, 100, 100, 0.67);
+}
+
+.case-studies2 {
+    width: 100%;
+    margin: 0px;
+    padding: 120px 30px 100px;
+}
+
+.case-studies2 .row2-4 .title2 {
+    font-size: 18px;
+    color: #7C7C7C;
+    letter-spacing: .11em;
+    font-family: Helvetica;
+}
+
+.case-studies2 .row2-4 .main-title2 {
+    font-size: 45px;
+    font-family: extraboldHelvetica;
+    margin-bottom: 14px;
+}
+
+.case-studies2 .row2-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.case-studies2 .row2-5 .col:nth-child(2) {
+    padding-left: 50px;
+}
+
+.case-studies2 .row2-5 .col img{
+    width: 100%;
+    border-radius: 3%;
+    background-size: cover;
+}
+
+.case-studies2 .row2-5 .col .title-case-studies2 {
+    font-family: extraboldHelvetica;
+    font-size: 28px;
+}
+
+.case-studies2 .row2-5 .col .buttons {
+    margin-top: 35px;
+}
+
+.case-studies2 .row2-5 .col .buttons label {
+    background-color: #28702F;
+    width: 185px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-family: boldHelvetica;
+    font-size: 16px;
+    color: #E9FFEB;
+    border-radius: 10px;
+}
+
+.case-studies2 .row2-5 .col .desc-p-2 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #626262;
+}
+
+.case-studies2 .row2-5 .col a{
+    text-decoration: none;
+    background-color: none;
+    font-size: 20px;
+    color: #626262;
+    transition: .8s;
+    font-family: mediumHelvetica;
+}
+
+.case-studies2 .row2-5 .col a:hover{
+    color: #000000;  
+}
+
+.footer-profile2 {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.footer-profile2 .footer-title2 {
+    text-align: center;
+    font-family: boldHelvetica;
+    font-size: 14px;
+    letter-spacing: .40em;
+    text-transform: uppercase;
+    color: #7C7C7C;
+}
+
+.footer-profile2 .footer-subtitle2 {
+    text-decoration: none;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    font-family: blackHelvetica;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+}
+
+.footer-profile2 .footer-subtitle2:hover{
+    color: rgb(32, 4, 158);
+    text-decoration-line: underline;
+}
+
+.footer-profile2 .back {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+    
+
+
+/* .content-work2 .row2-3 {
+    
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.content-work2 .row2-3 .col {
+    display: block;
+    margin: 20px;
+    padding: 15px;
+}
+
+.content-work2 .row2-3 .col a{
+    display: block;
+    width: auto;
+    box-sizing: border-box;   
+}
+
+.content-work2 .row2-3 .col a img {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    transition: .4s;
+    border-radius: 30px;
+}
+
+.content-work2 .row2-3 .col a img:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 9px 26px -2px rgba(100, 100, 100, 0.67);
+} */
+
+
+/* Tablet */
+@media (max-width: 991.98px) and (min-width: 768px) {
+    .profile-image {
+        display: hidden;
+    }
+    .profile-image .back-image {
+        right: 4%;
+        top: 20%;
+        position: absolute;
+        z-index: -10;
+    }
+    
+    .profile-image .front-image {
+        right: 10%;
+        top: 28%;
+        position: absolute;
+        z-index: 3;
+        transform: preserve-3d;
+    }
+    
+    .profile-image .triangle {
+        right: 30%;
+        top: 51%;
+        position: absolute;
+        z-index: 5;
+    }
+    
+    .profile-image .square {
+        right: 4%;
+        top: 20%;
+        position: absolute;
+        z-index: 2;
+    }
+    
+    .profile-image .ellipse {
+        right: 25%;
+        top: 20%;
+        position: absolute;
+        z-index: 2;
+    }
+}
+
+/* Tablet */
+@media (min-width: 425.5px) and (max-width: 767.5px) { 
+    .profile-image {
+        display: none;
+    }
+    .case-studies2 .row2-5 {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .case-studies2 .row2-5 .col{
+        margin-bottom: 50px;
+    }
+}
+
+/* Mobile XS*/
+@media (min-width: 320px) and (max-width: 425px) {
+    .profile-image {
+        display: none;
+    }
+    nav .brand-logo .logo  {
+        display: none;
+    }
+    
+    nav .brand-logo  {
+        margin: auto;  
+    }
+
+    .main-profile2 {
+        margin: 200px 0 100px;
+        width: 100%;
+    }
+    .main-profile2 .row2-1 {
+       padding: 0;
+       width: 100%;
+    }
+
+    .main-profile2 .row2-1 .title2 {
+        padding: 0 20px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #7C7C7C;
+        letter-spacing: .11em;
+    }
+
+    .main-profile2 .row2-1 .main-title2 {
+        padding: 0 20px;
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 18px;
+    }
+    
+    .main-profile2 .row2-1 .about-2 {
+        padding: 0 20px;
+    }
+
+    .main-profile2 .row2-2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .main-profile2 .row2-2 a {
+        margin: 10px;
+    }
+
+    /*  */
+    .content-work2 {
+        padding: 0;
+        margin: 0;
+        width: 100%;  
+    }
+
+    .content-work2 .row2-3 {
+        overflow-x: hidden;
+        width: fit-content;
+        margin: auto;
+    }
+    .content-work2 .row2-3 .col-xl {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .content-work2 .row2-3 a {
+        display: block;
+        box-sizing: border-box;
+
+    }
+    .content-work2 .row2-3 a img{
+        display: block;
+        width: 88%
+    }
+
+    .case-studies2 {
+        margin: 120px 0;
+    }
+
+    .case-studies2 .row2-5 {
+        display: flex;
+        flex-direction: column;
+       
+    }
+   
+    .case-studies2 .row2-5 .col img{
+        width: 100%;
+    }
+
+    .case-studies2 .row2-5 .col:nth-child(2) {
+        padding: 0;
+    }
+    .case-studies2 .row2-5 .col .title-case-studies2 {
+        padding: 20px;
+    }
+
+    .case-studies2 .row2-5 .col .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .case-studies2 .row2-5 .col .buttons label{
+        margin: 10px auto;
+        background-color: #28702F;
+        width: 40%;
+        height: 52px;
+        line-height: 52px;
+        text-align: center;
+        font-family: boldHelvetica;
+        font-size: 16px;
+        color: #E9FFEB;
+        border-radius: 10px;
+    }
+    
+    .case-studies2 .row2-5 .col .desc-p-2{
+        padding: 20px;
+    }
+    
+    .case-studies2 .row2-5 .col a{
+        padding: 20px;
+    }
+
+
+
+   
+
+   
+
+
+    
+
+}
+
+
+/* .main-profile2 .row2-1 {
+    margin: 180px 30px 0px;
+    
+}
+
+.main-profile2 .row .title2 {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: .11em;
+    color: #7C7C7C;
+}
+.main-profile2 .row .main-title2 {
+    display: block;
+    font-size: 45px;
+    font-weight: bold;
+    padding-right: 918px;
+}
+.main-profile2 .row .about-2 {
+    width: 432px;
+    font-size: 24px;
+    color: #5B5B5B;
+}
+.main-profile2 .row .about-2 .about-bd{
+    color: #05AD2A;
+    font-weight: 500;
+}
+
+.main-profile2 .row {
+    display: flex;
+}
+
+.main-profile2 .row a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #5F5757;
+    width: fit-content;
+    transition: .6s;
+}
+
+.main-profile2 .row a:hover{
+    color: black;
+    text-decoration-line: underline;
+}
+
+.content-work2 {
+    margin: 0px 90px 100px;
+}
+
+.content-work2 .row {
+    box-sizing: border-box;
+}
+.content-work2 .row .col {
+    padding: 10px;
+}
+
+.content-work2 .row .col a{
+    display: block;
+    text-align: center;
+} */
+
+

@@ -1,0 +1,220 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(asset/fonts/HelveticaNowDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: mediumHelvetica;
+    src: url(asset/fonts/HelveticaNowDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family: boldHelvetica;
+    src: url(asset/fonts/HelveticaNowDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: extraboldHelvetica;
+    src: url(asset/fonts/HelveticaNowDisplay-ExtraBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Helvetica;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+nav .brand-logo {
+    margin-top: 20px;
+    margin-left: 30px;
+    transition: .6s;
+}
+nav .brand-logo:hover {
+    opacity: .48;
+}
+
+.main  {
+    margin: 78px 30px;
+}
+
+
+.main .row h5 {
+    font-family: helvetica;
+    color: #878A8F;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.main .row h1 {
+    width: 400px;
+    font-style: normal;
+    line-height: 73px;
+    font-family: extraboldHelvetica;
+    color: #0F141E;
+    font-size: 50px;
+}
+
+.box-profile {
+    width: 100%;
+    background-color: #241487;
+    border-radius: 74.5242px 74.5242px 0px 0px;
+    margin-top: 200px;
+}
+
+.box-profile .row {
+    
+    display: flex;
+    justify-content: space-around;
+   flex-direction: row;
+   align-items: flex-start;
+}
+
+.box-profile .row .col{
+    position: relative;
+    top: -130px;
+    margin: 50px;
+}
+
+.box-profile .row .col .profile{
+    display: block;
+    margin: auto;
+    background-size: cover;
+   border-radius: 50%;
+   border: 16px solid #FFFFFF;
+}
+
+.box-profile .row .col .name-profile{
+    margin-top: 58px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.box-profile .row .col .role-profile{
+    color: #DDDDDD;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box-profile .row .col .see-more-profile{
+    margin-top: 66px;
+    display: block;
+    color: #e0e0e0;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    transition: .5s;
+}
+
+.box-profile .row .col .see-more-profile:hover{
+    text-decoration-line: underline;
+    transform: scale(1.1);
+    color: white;
+}
+
+.box-profile .row span{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+/* Tablet */
+@media (max-width: 991.98px) {
+
+    .box-profile .row .col .profile{
+        width: 158px;
+        display: block;
+        margin: auto;
+        background-size: cover;
+        border-radius: 50%;
+        border: 16px solid #FFFFFF;
+    }
+
+    .box-profile .row .col .name-profile{
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .box-profile .row .col .role-profile{
+        color: #DDDDDD;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .box-profile .row .col .see-more-profile{
+        color: #DDDDDD;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767.98px) { 
+    .main {
+        margin: 78px auto;
+        max-width: 90%;
+    }
+    
+    .main .row h1 {
+        width: fit-content;
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .box-profile {
+        width: 100%;
+        background-color: #241487;
+        border-radius: 74.5242px 74.5242px 0px 0px;
+        
+    }
+    
+    .box-profile .row {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* Mobile XS*/
+@media (max-width: 374.5px) {  
+    nav .brand-logo .logo  {
+        display: none;
+    }
+    
+    nav .brand-logo  {
+        margin: auto;  
+    }
+
+    .main {
+        margin: 78px auto;
+        max-width: 90%;
+    }
+    
+    .main .row h1 {
+        width: fit-content;
+        font-size: 38px;
+        line-height: 38px;
+    }
+    
+
+}
